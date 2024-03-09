@@ -1,0 +1,98 @@
+p {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+/* home page style */
+.home-paragraph,
+.home-heading {
+    text-align: center;
+    font-family: Roboto, Arial;
+}
+.home-heading {
+    margin-bottom: 60px;
+}
+.home-paragraph {
+    font-size: 14px;
+    line-height: 30px;
+}
+.home-button-alignment {
+    text-align: center;
+}
+
+/* box styling */
+.box {
+    box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.5);
+    border-radius: 3px;
+    display: inline-block;
+    vertical-align: top;
+    margin-left: 100px;
+    margin-bottom: 40px;
+    margin-top: 50px;
+}
+
+/* profile picture & paragraph styling */
+.profile-picture {
+    width: 120px;
+    height: 120px;
+    object-fit: cover;
+}
+.profile-paragraph,
+.profile-button {
+    font-family: Roboto, Arial;
+}
+.profile-paragraph {
+    padding-top: 15px;
+    font-size: 12px;
+    text-align: center;
+}
+
+/* buttons */
+.home-button,
+.profile-button {
+    background-color: rgb( 10, 102, 194);
+    color: white;
+    font-family: Roboto, Arial;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 3px;
+    font-weight: 500;
+    cursor: pointer;
+    transition: opacity 0.15s box-shadow 0.15s;
+    box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.5);   
+}
+.home-button {
+    margin-top: 80px;
+}
+.profile-button {
+    margin-top: 25px;
+    margin-bottom: 8px;
+    margin-left: 8px;
+}
+.home-button:hover,
+.profile-button:hover {
+    opacity: 0.8;
+}
+.home-button:active,
+.profile-button:active {
+    box-shadow: 0 0 0 0;
+    opacity: 0.4;
+}
+
+/* grid styling */
+
+.grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin: 30px 60px;
+    column-gap: 20px;
+    
+}
+.grid-img {
+    width: 400px;
+    height: 500px;
+    object-fit: cover;
+}
+.grid-para {
+    font-family: Roboto, Arial;
+    font-size: 16px;
+}
